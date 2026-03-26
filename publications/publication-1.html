@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Le calme, la paix — Bleuet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lora&family=DM+Sans&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo" onclick="window.location.href='../index.html'">Bleuet<span>.</span></div>
+</nav>
+
+<div class="breadcrumb">
+  <a href="../index.html" class="bc-link">Accueil</a>
+  <span>›</span> Journal <span>›</span> Le calme, la paix
+</div>
+
+<div class="layout">
+  <main>
+    <button class="back-btn" onclick="window.location.href='../index.html'">← Retour</button>
+    
+    <article class="post-detail">
+      <div class="post-meta-row">
+        <span class="post-date">Été 2025</span>
+        <span class="post-read-time">3 min de lecture</span>
+      </div>
+      
+      <h1 class="post-title">Le calme, la paix</h1>
+
+      <div class="post-body">
+      <p>Ce matin, j'ai enfilé mes baskets et j'ai traversé le village. Il est minuscule. Comme à mon habitude, j'aime m'arrêter au glacier Gelateria des Goudes, un repère familier au milieu de ces quelques rues et commerces. Ici, au moins, le réseau passe — c'est déjà ça.</p><p>J'ai trouvé un coin dans les calanques. Pas le plus beau. Pas le plus secret. Juste le mien, parce qu'il n'y avait personne. J'ai regardé les rochers. J'ai vu un lézard passer, j'ai attendu qu'il revienne.</p><p>J'ai pensé : cet été, je vais écrire. Pas pour briller. Juste pour me souvenir. Parce que les souvenirs sont traîtres. Ils s'effacent ou mentent. Les mots, eux, restent fixes.</p><p>Ce blog, ce sera mon carnet de l'été. Une sorte d'autobiographie à ciel ouvert. Si quelqu'un tombe dessus : bienvenue. Sinon, ce sera juste une bouteille à la mer.</p><p>Demain, je retournerai aux calanques.</p>
+      </div>
+
+      <div class="post-footer">
+        <div class="post-actions">
+          <button class="post-action-btn" onclick="toggleLike(this)">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            <span>12</span>
+          </button>
+        </div>
+      </div>
+    </article>
+  </main>
+</div>
+
+<footer class="footer-simple">
+  <span class="footer-simple-logo">Bleuet</span>
+</footer>
+
+<script src="../script.js"></script>
+</body>
+</html>

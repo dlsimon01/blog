@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Un rien qui fait tout — Bleuet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lora&family=DM+Sans&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo" onclick="window.location.href='../index.html'">Bleuet<span>.</span></div>
+</nav>
+
+<div class="breadcrumb">
+  <a href="../index.html" class="bc-link">Accueil</a>
+  <span>›</span> Journal <span>›</span> Un rien qui fait tout
+</div>
+
+<div class="layout">
+  <main>
+    <button class="back-btn" onclick="window.location.href='../index.html'">← Retour</button>
+    
+    <article class="post-detail">
+      <div class="post-meta-row">
+        <span class="post-date">Été 2025</span>
+        <span class="post-read-time">3 min de lecture</span>
+      </div>
+      
+      <h1 class="post-title">Un rien qui fait tout</h1>
+      
+      <div class="post-body">
+        <p>Ce matin, la mer s'étirait comme un drap encore tiède, juste défroissé par la lumière.</p><p>Le ciel ne faisait aucun effort, il restait là, pâle, suspendu, sans promesse.</p><p>Et pourtant, il y avait un détail. Un truc minuscule qui m’a accroché l’œil.</p><p>Une robe.</p><p>Accrochée à une branche de pin tordue, juste au bord des calanques. Une robe blanche, fine, qui dansait avec le vent. Elle ne venait pas de là. Trop légère pour être oubliée, trop vraie pour être là par hasard. Personne autour. Pas de sac, pas de pas dans le sable. Juste la robe, comme laissée là exprès.</p><p>J’ai regardé longtemps. Elle bougeait comme si elle se souvenait de quelqu’un.</p><p>J’ai pris une photo. Je l’ai mal cadrée. Mais je crois que c’est bien comme ça.</p><p>Je me suis demandé, en rentrant, combien de choses on regarde sans vraiment les voir. Et combien on invente pour combler les trous.</p>
+      </div>
+
+      <div class="post-footer">
+        <div class="post-actions">
+          <button class="post-action-btn" onclick="toggleLike(this)">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            <span>18</span> </button>
+        </div>
+      </div>
+    </article>
+  </main>
+</div>
+
+<footer class="footer-simple">
+  <span class="footer-simple-logo">Bleuet</span>
+</footer>
+
+<script src="../script.js"></script>
+</body>
+</html>
